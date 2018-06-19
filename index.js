@@ -18,4 +18,5 @@ function createAnimal(animalType) {
   function createAnimal(deadlyDevice) {
     return { animalType, deadlyDevice }
   }
+  return createAnimal;
 }

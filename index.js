@@ -20,3 +20,6 @@ function createAnimal(animalType) {
   }
   return createAnimal;
 }
+
+let sharkCreator = createAnimal('Shark');
+

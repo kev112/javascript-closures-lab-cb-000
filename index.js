@@ -21,5 +21,7 @@ function createAnimal(animalType) {
   return createAnimal;
 }
 
-let sharkCreator = createAnimal('Shark');
+const sharkCreator = createAnimal('Shark');
 
+const sharkWithFrickinLaserbeam =  sharkCreator('Laserbeam');
+const sharkWithFrickinCannon =  sharkCreator('Cannon');
